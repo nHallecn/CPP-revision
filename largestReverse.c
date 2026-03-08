@@ -1,3 +1,20 @@
+/*
+Program: Array Operations in C
+
+Description:
+This program allows the user to enter a list of integers (maximum of 10 elements).
+It performs two main operations on the array:
+
+1. Finds and displays the maximum element in the array.
+2. Displays the elements of the array in reverse order.
+
+Functions:
+- findMax(): Determines and prints the largest value in the array.
+- reverseArray(): Prints the array elements starting from the last element to the first.
+
+Author: NJI HALLE CHO NKWENTI
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -45,4 +62,5 @@ int main(){
 
     free(arr);  // Free allocated memory
     return 0;
+
 }
